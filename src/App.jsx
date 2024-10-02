@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import Navbar from "./Components/Navbar/Navbar";
 import { Routes,Route } from "react-router-dom";
 import Video from "./Pages/Video/Video";

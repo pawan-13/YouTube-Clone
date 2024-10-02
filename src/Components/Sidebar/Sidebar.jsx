@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import './Sidebar.css';
 import home from '../../assets/Images/home.png';
 import game_icon from '../../assets/Images/game_icon.png';
@@ -15,9 +16,10 @@ import megan from '../../assets/Images/megan.png';
 import cameron from '../../assets/Images/cameron.png';
 
 
-const Sidebar = ({sidebar}) => {
+// eslint-disable-next-line react/prop-types
+const Sidebar = ({ sidebar }) => {
   return (
-    <div className={`sidebar ${sidebar?"":"small-sidebar"}`}>
+    <div className={`sidebar ${sidebar ? "" : "small-sidebar"}`}>
       <div className='sortcut-links'>
         <div className="side-link">
           <img src={home} alt="home" /><p>Home</p>

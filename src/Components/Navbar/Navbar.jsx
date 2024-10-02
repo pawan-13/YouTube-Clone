@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable react/react-in-jsx-scope */
 import './Navbar.css';
 import menu_icon from '../../assets/Images/menu.png';
 import logo from '../../assets/Images/logo.png';
